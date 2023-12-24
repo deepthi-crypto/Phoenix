@@ -1161,6 +1161,15 @@ blockquote {
     font-size: 20px;
   }
 }
+@media screen and (max-width: 768px) {
+  .hero-section{
+    padding-top: 62px !important;
+    
+  }
+  .banner_css {
+    height: auto !important;
+  }
+}
 /*------------------MANUAL CSS---------
 --------------------------------------*/
 .banner_css{
