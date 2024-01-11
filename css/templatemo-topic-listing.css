@@ -292,7 +292,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: var(--secondary-color);
+  background-color: #E5E6E4;
 }
 
 .navbar {
@@ -1081,7 +1081,7 @@ blockquote {
   }
   
   .navbar {
-    background-color: var(--secondary-color);
+    background-color: #E5E6E4;
   }
 
   .navbar-nav .dropdown-menu {
@@ -1156,7 +1156,9 @@ blockquote {
   h4 {
     font-size: 22px;
   }
-
+  .services_user{
+    font-size: 19px !important;
+  }
   h5 {
     font-size: 20px;
   }
@@ -1185,6 +1187,29 @@ blockquote {
   .p_user{
     font-size: 12px !important;
     line-height: 22px;
+  }
+  .services_user{
+    font-size: 19px;
+  }
+  .timeline-container .vertical-scrollable-timeline li .icon-holder {
+   
+    left: 0px  !important;
+    width: 50px  !important;
+    height: 50px  !important;
+    
+  }
+  .timeline-container .vertical-scrollable-timeline li .icon-holder::before{
+    width: 50px !important;
+    height: 50px  !important;
+  }
+  .timeline-container .vertical-scrollable-timeline .list-progress{
+    left:21px !important;
+  }
+  .timeline-container .vertical-scrollable-timeline li {
+    padding-left: 77px !important;
+  }
+  .timeline-container .vertical-scrollable-timeline li {
+    padding: 0px 0px 8px 73px !important;
   }
 }
 /*------------------MANUAL CSS---------
