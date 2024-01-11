@@ -1077,7 +1077,7 @@ blockquote {
 
   .section-padding {
     padding-top: 50px;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
   }
   
   .navbar {
@@ -1168,6 +1168,23 @@ blockquote {
   }
   .banner_css {
     height: auto !important;
+  }
+  .logo_bottom{
+    display:none;
+  }
+  .copyright_user{
+    position:absolute;
+    z-index:999;
+  }
+  .info_user{
+    display:none;
+  }
+  .resource_info_u{
+    text-align:center;
+  }
+  .p_user{
+    font-size: 12px !important;
+    line-height: 22px;
   }
 }
 /*------------------MANUAL CSS---------
