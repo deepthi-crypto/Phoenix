@@ -296,7 +296,7 @@ strong {
 }
 
 .navbar {
-  background: radial-gradient(484px at 49.4% 19%, rgb(23, 156, 214) 0%, rgb(21 115 199) 100.2%);
+  background:#E5E6E4;
   border-bottom: 1px solid rgba(128, 208, 199, 0.35);
   z-index: 9;
 }
@@ -320,7 +320,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--white-color);
+  color: var(--dark-color);
   font-family: var(--title-font-family); 
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
@@ -769,7 +769,7 @@ blockquote {
 
 .timeline-container .vertical-scrollable-timeline li {
   position: relative;
-  padding: 20px 0px 65px 145px;
+  padding: 20px 0px 8px 145px;
 }
 
 .timeline-container .vertical-scrollable-timeline li:last-child {
