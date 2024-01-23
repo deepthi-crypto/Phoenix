@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{HTTPS} !=on
-    RewriteRule ^ http://phoenixcomputerservices.in/$1 [L,R=301]
+   RewriteEngine On
+   RewriteCond %{HTTPS} on
+   RewriteRule (.*) http://phoenixcomputerservices.in/$1 [R=301,L]
 </IfModule>
 
