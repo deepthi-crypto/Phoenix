@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTPS} on
+RewriteRule (.*) http://phoenixcomputerservices.in/$1 [R=301,L]
